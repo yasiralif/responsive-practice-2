@@ -1,0 +1,59 @@
+
+@import "tailwindcss";
+
+/* this is color off all website */
+
+.primary-color{
+    color: #B68C5A;
+}
+.bg-primary-color{
+    background-color: #B68C5A;
+}
+.drak-2{
+    color: #414040;
+}
+.container{
+    max-width: 1240px;
+
+}
+.nav-banner{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    
+}
+
+/* Medium Devices (Tablet) */
+@media screen and (max-width:640px) {
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .nav-banner{
+        max-width: 80%;
+
+    }
+    .nav-banner-content{
+        max-width: 80%;
+        display: flex;
+        
+
+    }
+    .nav-banner-content h1{
+        font-size: 30px;
+    }
+    .nav-btn{
+        max-width: 80%;
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+    .nav-btn input{
+       
+    }
+    
+}
